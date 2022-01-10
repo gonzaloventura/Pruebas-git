@@ -1,0 +1,26 @@
+.btn-check{
+    background-color: blue;
+    border: blue;
+}
+
+.texto{
+    margin-top: 10em;
+    width: 200px;
+    height: 100px;
+    border-style: solid;
+    background-color: blueviolet;
+    color: white;
+}
+
+.texto span {
+    background-color: coral;
+    visibility: hidden;
+}
+
+.texto:hover span {
+    background-color: #00000025;
+    visibility: visible;
+    transition: 1s;
+    font-size: 16px;
+    text-shadow: 0px 10px 10px #f2f21d;
+}
